@@ -11,7 +11,7 @@ while (command !== "quit" && command !== "q") {
     if (command === "list") {
         console.log("LIST OF THE TODOS");
         for (let i = 0; i < todos.length; i++) {
-            console.log(`${i}: ${todos[i]}`);
+            console.log(`${i}: ${todos[i]}`);  // [ Index: element ]
         }
     }
     // Add a todo
